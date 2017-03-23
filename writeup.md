@@ -1,5 +1,5 @@
-#CarND1-P1
-#**Finding Lane Lines on the Road** 
+# CarND1-P1
+# **Finding Lane Lines on the Road** 
 
 [//]: # (Image References)
 
@@ -11,7 +11,7 @@
 
 ### Reflection
 
-###1. Image Pipeline
+### 1. Image Pipeline
 
 My initial pipeline consists of 3 main steps:
 
@@ -69,7 +69,7 @@ I also experimented with merging the results from the RGB and HSV line detection
 So in the end, instead of converting to gray scale, I used the V channel after converting to HSV.
 
 
-###2. Potential shortcomings
+### 2. Potential shortcomings
 
 Given the difficulties of the challenge video, running the code on a concrete highway (rather than an asphalt highway) may be a problem.
 
@@ -83,7 +83,7 @@ Curvier roads, will the code for excluding lines work correctly on tighter curve
 
 Words written on the roads.  This may create extraneous lines that confuse the line averaging algorithm.
 
-###3. Possible improvements
+### 3. Possible improvements
 
 Instead of averaging over all lines, we could cluster the lines (in Hough space), then eliminate the resulting lines.
 
