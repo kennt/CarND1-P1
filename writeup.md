@@ -7,6 +7,7 @@
 [imageMask]: ./examples/mask.jpg "Trapezoidal mask"
 [imageShortWhiteLine]: ./examples/short_white_line.jpg "Short white line"
 
+[videoChallenge]: ./test_videos_output/challenge.mp4 "challenge video"
 ---
 
 ### Reflection
